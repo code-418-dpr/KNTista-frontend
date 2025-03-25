@@ -47,7 +47,7 @@ docker build -t kntista-frontend .
 4. Теперь запускать образ можно командой:
 
 ```shell
-docker run -d --name kntista-frontend-standalone -p 3000:3000 kntista-frontend
+docker run -d --name kntista-frontend-standalone -p 8000:3000 kntista-frontend
 ```
 
 ### Без использования Docker
