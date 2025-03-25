@@ -9,7 +9,7 @@
         "dev": "bun run --bun next dev --turbopack",
         "build": "bun run --bun next build",
         "start": "bun run --bun next start",
-        "prepare": "husky"
+        "prepare": "bun run --bun husky"
     },
     "husky": {
         "hooks": {
@@ -29,9 +29,11 @@
         ]
     },
     "dependencies": {
+        "@heroui/react": "^2.7.5",
+        "framer-motion": "^12.6.0",
+        "next": "15.2.4",
         "react": "^19.0.0",
-        "react-dom": "^19.0.0",
-        "next": "15.2.4"
+        "react-dom": "^19.0.0"
     },
     "devDependencies": {
         "@eslint/compat": "^1.2.6",
