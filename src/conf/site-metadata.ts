@@ -10,6 +10,7 @@ const siteMetadata = {
         sizes: "512x512",
         type: "image/png",
     },
+    logoLight: "/logo-light-2457x2457.png",
 };
 
 export default siteMetadata;
